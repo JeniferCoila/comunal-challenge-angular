@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color:#FAFAFA;
+}
+
+.style-background {
+    bottom: 10%;
+    width: 99%;
+    height: 80%;
+    position: absolute;
+    background: url('assets/background.png');
+}
+
+
+
