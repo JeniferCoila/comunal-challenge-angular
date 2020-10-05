@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Mark";
+    src: url('assets/font/Mark.woff') format("woff")
+    }
 body {
     background-color:#FAFAFA;
 }
@@ -8,7 +12,8 @@ body {
     width: 99%;
     height: 80%;
     position: absolute;
-    background: url('assets/background.png');
+    background: url('assets/img/background.png');
+    z-index: -1;
 }
 
 
